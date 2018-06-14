@@ -18,3 +18,8 @@
 每學期也都需要更新一下課程心得的條目
 
 `python manage.py updateCourse 課程.json`：就可以插入新的課程到心得版，課程.json請去執行[scrawler專案](https://github.com/stufinite/scrawler)，執行完之後目錄下就會出現 `課程.json`
+
+## finally
+
+1. restart services:`supervisorctl restart all`
+2. purge cache on Cloudflare
